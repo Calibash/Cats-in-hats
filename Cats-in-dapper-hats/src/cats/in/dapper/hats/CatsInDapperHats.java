@@ -22,12 +22,12 @@ public class CatsInDapperHats extends Application {
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+        btn.setText("Say 'I will be a cat'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
             
             @Override
             public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
+                System.out.println("meow?");
             }
         });
         
@@ -36,7 +36,7 @@ public class CatsInDapperHats extends Application {
         
         Scene scene = new Scene(root, 300, 250);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("there will be cats here!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

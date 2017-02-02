@@ -19,17 +19,23 @@ package cats.in.dapper.hats;
  * and so on.
  * 
  * preliminary expressed emotions;
- * interest;
- * affection;
- * dislike;
- * curiosity;
- * happiness;
- * sadness;
+ * interest;pet should have certain preferred categories of items/individuals
+ * affection; pet should respond to "favorable" actions with enthusiasm
+ * dislike; pet should have learned an innate negative preferences
+ * curiosity; pet should have a variable level of general and specific interest
+ * happiness; pet should have an expressed measure of contentment
+ * sadness; pet should have an expressed measure of discontent when appropriate
  * 
  * each instantiated pet unit should also have a slightly different personality,
  * expressing more of some trait and less of others, or veering towards specific
  * preprogrammed or generated behavioral patterns. pattern composition should be
  * used to provide an almost endless variation matrix.
+ * 
+ * current obstacles; 
+ * -communicating emotions to outside of class
+ * -storing and quantifying pet emotions
+ * -instantiating and storing innate preference profiles
+ * -varying emotional states over time and due to stimuli
  * @author Calibash
  */
 public class PetLogic {

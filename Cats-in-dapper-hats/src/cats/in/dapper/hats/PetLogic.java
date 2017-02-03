@@ -39,7 +39,8 @@ package cats.in.dapper.hats;
  * @author Calibash
  */
 public class PetLogic {
-    
+    private IPetPersonality storedPersonalityProfile;
+    public PetLogic(IPetPersonality personality){}
     
     
 }

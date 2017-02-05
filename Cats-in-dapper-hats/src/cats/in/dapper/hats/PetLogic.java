@@ -40,7 +40,9 @@ package cats.in.dapper.hats;
  */
 public class PetLogic {
     private IPetPersonality storedPersonalityProfile;
-    public PetLogic(IPetPersonality personality){}
+    public PetLogic(IPetPersonality personality){
+        this.storedPersonalityProfile = personality;
+    }
     
     
 }

@@ -11,5 +11,16 @@ package cats.in.dapper.hats;
  * @author Calibash
  */
 public interface IPetPersonality {
+    //method representing a pet having an experience which may influence it
     
+    //method for determining a pet's tendency towards curiosity
+        
+    //method for determining a pet's cheerfulness
+    
+    //method for determing a pet's innate stubbornness
+    
+    //method for determinging how easily a pet becomes happy
+    
+    //method for determing how easily a pet becomes sad
+      
 }

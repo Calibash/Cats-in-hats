@@ -14,7 +14,8 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 /**
- *
+ * Staging area for Cats in Hats application. should manage major interactions
+ * with the user
  * @author Calibash
  */
 public class CatsInDapperHats extends Application {

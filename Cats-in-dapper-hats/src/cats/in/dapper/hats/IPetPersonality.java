@@ -12,15 +12,13 @@ package cats.in.dapper.hats;
  */
 public interface IPetPersonality {
     //method representing a pet having an experience which may influence it
-    
+    void experienceEvent();//TODO determine interface element
     //method for determining a pet's tendency towards curiosity
-        
-    //method for determining a pet's cheerfulness
-    
+    Integer curiosityTendency();
+    //method for determining a pet's cheerfulness, becomes happy
+    Integer cheerfulnessTendency();
     //method for determing a pet's innate stubbornness
-    
-    //method for determinging how easily a pet becomes happy
-    
+    Integer stubbornnessTendency();
     //method for determing how easily a pet becomes sad
-      
+    Integer sadnessTendency();
 }

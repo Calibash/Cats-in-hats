@@ -15,7 +15,7 @@ public interface IPetPersonality {
     void experienceEvent();//TODO determine interface element
     //method for determining a pet's tendency towards curiosity
     Integer curiosityTendency();
-    //method for determining a pet's cheerfulness, becomes happy
+    //method for determining a pet's cheerfulness, how easily it becomes happy
     Integer cheerfulnessTendency();
     //method for determing a pet's innate stubbornness
     Integer stubbornnessTendency();

@@ -10,7 +10,7 @@ package cats.in.dapper.hats;
  * @author Calibash
  */
 public class ConcretePetPersonality implements IPetPersonality{
-    private Integer curiousityLevel;
+    private Integer curiosityLevel;
     private Integer cheerfulnessLevel;
     private Integer stubbornnessLevel;
     private Integer sadnessLevel;
@@ -19,8 +19,8 @@ public class ConcretePetPersonality implements IPetPersonality{
             Integer cheerfullnessValue,
             Integer stubbornnessValue,
             Integer sadnessValue){
-        this.curiousityLevel = curiousityValue;
-        this.cheerfulnessLevel = curiousityValue;
+        this.cheerfulnessLevel = cheerfullnessValue;
+        this.curiosityLevel = curiousityValue;
         this.stubbornnessLevel = stubbornnessValue;
         this.sadnessLevel = sadnessValue;
     };
@@ -32,13 +32,14 @@ public class ConcretePetPersonality implements IPetPersonality{
 
     @Override
     public Integer curiosityTendency() {
-        return this.cheerfulnessLevel;
+        return this.curiosityLevel;
 //        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public Integer cheerfulnessTendency() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.cheerfulnessLevel;
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override

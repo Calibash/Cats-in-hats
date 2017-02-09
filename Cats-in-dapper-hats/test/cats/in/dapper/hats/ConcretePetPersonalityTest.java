@@ -33,7 +33,7 @@ public class ConcretePetPersonalityTest {
     @Test
     public void testExperienceEvent() {
         System.out.println("experienceEvent");
-        ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
+        ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
         instance.experienceEvent();
     }
 
@@ -43,7 +43,7 @@ public class ConcretePetPersonalityTest {
     @Test
     public void testCuriosityTendency() {
         System.out.println("curiosityTendency");
-        ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
+        ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
         Integer expResult = 1;
         Integer result = instance.curiosityTendency();
         assertEquals(expResult, result);
@@ -52,15 +52,13 @@ public class ConcretePetPersonalityTest {
     /**
      * Test of cheerfulnessTendency method, of class ConcretePetPersonality.
      */
-//    @Test
+    @Test
     public void testCheerfulnessTendency() {
         System.out.println("cheerfulnessTendency");
-        ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
-        Integer expResult = null;
+        ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
+        Integer expResult = 2;
         Integer result = instance.cheerfulnessTendency();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -69,7 +67,7 @@ public class ConcretePetPersonalityTest {
 //    @Test
     public void testStubbornnessTendency() {
         System.out.println("stubbornnessTendency");
-        ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
+        ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
         Integer expResult = null;
         Integer result = instance.stubbornnessTendency();
         assertEquals(expResult, result);
@@ -83,7 +81,7 @@ public class ConcretePetPersonalityTest {
 //    @Test
     public void testSadnessTendency() {
         System.out.println("sadnessTendency");
-        ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
+        ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
         Integer expResult = null;
         Integer result = instance.sadnessTendency();
         assertEquals(expResult, result);

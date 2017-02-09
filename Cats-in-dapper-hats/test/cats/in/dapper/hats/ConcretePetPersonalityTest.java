@@ -64,15 +64,13 @@ public class ConcretePetPersonalityTest {
     /**
      * Test of stubbornnessTendency method, of class ConcretePetPersonality.
      */
-//    @Test
+    @Test
     public void testStubbornnessTendency() {
         System.out.println("stubbornnessTendency");
         ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
-        Integer expResult = null;
+        Integer expResult = 3;
         Integer result = instance.stubbornnessTendency();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**

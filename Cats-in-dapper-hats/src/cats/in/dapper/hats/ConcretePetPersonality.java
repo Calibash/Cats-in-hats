@@ -27,24 +27,22 @@ public class ConcretePetPersonality implements IPetPersonality{
     @Override
     public void experienceEvent() {
         System.out.println("an event just happened");
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public Integer curiosityTendency() {
         return this.curiosityLevel;
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public Integer cheerfulnessTendency() {
         return this.cheerfulnessLevel;
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public Integer stubbornnessTendency() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.stubbornnessLevel;
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override

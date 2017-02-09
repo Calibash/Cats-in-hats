@@ -42,12 +42,11 @@ public class ConcretePetPersonality implements IPetPersonality{
     @Override
     public Integer stubbornnessTendency() {
         return this.stubbornnessLevel;
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public Integer sadnessTendency() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.sadnessLevel;
     }
     
 }

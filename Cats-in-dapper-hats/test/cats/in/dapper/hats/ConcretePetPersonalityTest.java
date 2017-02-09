@@ -76,15 +76,13 @@ public class ConcretePetPersonalityTest {
     /**
      * Test of sadnessTendency method, of class ConcretePetPersonality.
      */
-//    @Test
+    @Test
     public void testSadnessTendency() {
         System.out.println("sadnessTendency");
         ConcretePetPersonality instance = new ConcretePetPersonality(1,2,3,4);
-        Integer expResult = null;
+        Integer expResult = 4;
         Integer result = instance.sadnessTendency();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }

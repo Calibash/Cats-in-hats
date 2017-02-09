@@ -35,22 +35,18 @@ public class ConcretePetPersonalityTest {
         System.out.println("experienceEvent");
         ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
         instance.experienceEvent();
-        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
     }
 
     /**
      * Test of curiosityTendency method, of class ConcretePetPersonality.
      */
-//    @Test
+    @Test
     public void testCuriosityTendency() {
         System.out.println("curiosityTendency");
         ConcretePetPersonality instance = new ConcretePetPersonality(1,1,1,1);
-        Integer expResult = null;
+        Integer expResult = 1;
         Integer result = instance.curiosityTendency();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**

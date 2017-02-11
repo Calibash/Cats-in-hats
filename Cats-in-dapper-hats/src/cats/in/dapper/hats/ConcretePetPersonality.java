@@ -6,7 +6,8 @@
 package cats.in.dapper.hats;
 
 /**
- *
+ *I am legitimately not sure what i am putting into this pet's personality. 
+ * i assume it's going do be drunk as a skunk, just as i am right now
  * @author Calibash
  */
 public class ConcretePetPersonality implements IPetPersonality{

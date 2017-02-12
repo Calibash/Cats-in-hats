@@ -6,8 +6,23 @@
 package cats.in.dapper.hats;
 
 /**
- *I am legitimately not sure what i am putting into this pet's personality. 
- * i assume it's going do be drunk as a skunk, just as i am right now
+ *Serves as a instantiation and storage point for persistent traits for a given
+ * pets interactive profile within the game. 
+ * 
+ * -final product should be a set of characteristics which can be both input and
+ * saved from an already "instantiated" personality object to produce the "same" 
+ * pet a user has been interacting with. in essence, it should save the core 
+ * elements of the "individual's" internal decision making processes such that 
+ * it can be re-instantiated from a saved state, or cloned.
+ * 
+ * -provide a degree of uniqueness between otherwise similar members of a 
+ * particular class of entities, with enough complexity that the possibility of 
+ * two randomly generated entities behaving exactly the same in all situations
+ * is borderline non-existent. (note that this is the eventual goal)
+ * 
+ * -provide a degree of user engrossment with the qualities displayed by an 
+ * interactive entity. such entities should not be perceptively artificial, 
+ * there should be a degree of consistency mixed with a degree of agency.
  * @author Calibash
  */
 public class ConcretePetPersonality implements IPetPersonality{
@@ -24,6 +39,8 @@ public class ConcretePetPersonality implements IPetPersonality{
         this.curiosityLevel = curiousityValue;
         this.stubbornnessLevel = stubbornnessValue;
         this.sadnessLevel = sadnessValue;
+        //TODO - CLS - add in sanity checks for input values being viable
+        
     };
     @Override
     public void experienceEvent() {

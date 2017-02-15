@@ -6,7 +6,14 @@
 package cats.in.dapper.hats;
 
 /**
- *define interaction points allowed to a user with generic pets in a given system
+ *define interaction points allowed to a user with generic pets in a given 
+ * system.
+ * 
+ *other interfaces may be needed to more aptly describe this interaction.
+ * possible logical breakpoints are by scene, by pet, by character, by some sort 
+ * of affection... 
+ * 
+ *
  * @author Calibash
  */
 public interface IPetUserInteraction {

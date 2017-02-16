@@ -13,7 +13,13 @@ package cats.in.dapper.hats;
  * possible logical breakpoints are by scene, by pet, by character, by some sort 
  * of affection... 
  * 
- *
+ * is it best to define user interaction in such a way? it would be a convenient
+ * handle for a GUI, but some of the hypothetical interaction (ie give item) 
+ * might do a lot better as say, an abstract. instead of giving the PET the item,
+ * could have the user interact ( in that sense) directly with the play area.
+ * 
+ * the functionality for say, getting the item could then be inverted. instead 
+ * of giving the 
  * @author Calibash
  */
 public interface IPetUserInteraction {

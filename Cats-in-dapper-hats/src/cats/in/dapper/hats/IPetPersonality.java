@@ -7,7 +7,15 @@ package cats.in.dapper.hats;
 
 /**
  * serve as an integration point for personality weights which belonging to an 
- * entity
+ * entity.
+ * 
+ * development hurdles; presented interface values seem under-representative of 
+ * what will be needed in near future to "describe" various tendencies. Integer 
+ * use is static, and will most likely tie things in too closely.
+ * 
+ * alternatives; separate component classes, narrowing definition of expressed
+ * personality traits to a finer grain. 
+ * 
  * @author Calibash
  */
 public interface IPetPersonality {

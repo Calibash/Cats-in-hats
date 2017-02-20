@@ -10,7 +10,9 @@ package cats.in.dapper.hats;
  * @author Calibash
  */
 public abstract class AbstractPet {
-    public AbstractPet(IPetPersonality petPersonality){
+    public AbstractPet(
+            IPetPersonality petPersonality, 
+            IPetUserInteraction userInteractionProfile){
         //include general interaction elements such as personality, logo, etc
     }
     

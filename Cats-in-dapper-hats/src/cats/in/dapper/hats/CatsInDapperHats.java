@@ -16,6 +16,14 @@ import javafx.stage.Stage;
 /**
  * Staging area for Cats in Hats application. should manage major interactions
  * with the user
+ * 
+ * player will interact with various animals, which can be adorned with hats,
+ * other paraphernalia. user will then be able to interact with the various 
+ * animals, and collect additional animals. 
+ * 
+ * Player can utilize mini-games to collect components to collect pets faster, 
+ * purchase, or trade them(?) with other players.
+ * 
  * @author Calibash
  */
 public class CatsInDapperHats extends Application {

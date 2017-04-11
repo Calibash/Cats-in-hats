@@ -7,6 +7,9 @@ package cats.in.dapper.hats;
 
 /**
  *staging location for general pet interface interaction.
+ * 
+ * should input a personality and interaction profile, and output standard pet 
+ * interactions defined in implemented interfaces.
  * @author Calibash
  */
 public abstract class AbstractPet {

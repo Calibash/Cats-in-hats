@@ -24,6 +24,8 @@ import javafx.stage.Stage;
  * Player can utilize mini-games to collect components to collect pets faster, 
  * purchase, or trade them(?) with other players.
  * 
+ * staging area will manage composition of POJO objects to present play field.
+ * 
  * @author Calibash
  */
 public class CatsInDapperHats extends Application {

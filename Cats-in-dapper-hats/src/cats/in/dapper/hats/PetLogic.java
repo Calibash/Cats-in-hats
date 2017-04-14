@@ -44,5 +44,5 @@ public class PetLogic {
         this.storedPersonalityProfile = personality;
     }
     
-    
+    //reactions of pet should utilize personality profile to respond to input
 }
